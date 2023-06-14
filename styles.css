@@ -26,8 +26,11 @@ body{
     flex-direction: column;
 }
 
-.header{
+/*--------------------HEADER--------------------*/
+
+.header, .footer{
    background-color: #1F2937;
+   color: #F9FAF8;
 }
 
 .navBar{
@@ -66,7 +69,7 @@ body{
     padding: 0;
     font-size: 48px;
     font-weight: bolder;
-    color: #F9FAF8;
+    /* color: #F9FAF8; */
 }
 
 .text-header p{ 
@@ -82,4 +85,86 @@ body{
     border-radius: 16px;
     color: #E5E7EB;
     font-weight: 600;
+}
+
+
+/*--------------------MAIN CONTENT--------------------*/
+
+.main__Content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.main__Content h2{
+    font-size: 36px;
+    font-weight: bolder;
+    margin: 0;
+    padding: 20px 0;
+}
+
+/*--------------------CONTENT 1--------------------*/
+
+.content-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 50px 0;
+}
+
+.mochi{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mochi p{
+    color: #1F2937;
+    font-weight: 700;
+}
+
+.mochi img{
+    border: 5px solid #3882F6;
+    border-radius: 10px;
+    width: 250px;
+    height: 250px;
+}
+
+/*--------------------CONTENT 2--------------------*/
+
+.content-2{
+    background-color: #E5E7EB;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.quote p{
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    margin: 0;
+    padding: 0;
+}
+
+.quote p:last-child{
+    display: flex;
+    align-self: flex-end;
+    font-size: 24px;
+    font-weight: 700;
+    font-style: normal;
 }
